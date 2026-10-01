@@ -2,59 +2,41 @@
   "schemaVersion": 1,
   "enabled": true,
   "agency": {
-    "logoUrl": "",
-    "logoAlt": "Agency",
+    "logoUrl": "https://assets.cdn.filesafe.space/I3S7hcJpM71xRahCzE2C/media/6abd402b10a2b7bc2b44185c.png",
+    "logoAlt": "MPC",
     "logoMount": "sidebar",
     "theme": {
-      "primary": "#155eef"
+      "primary": "#2563EB",
+      "sidebarBg": "#0B1F3A",
+      "sidebarText": "#CBD5E1",
+      "navActive": "#1C3A66"
     }
   },
   "locations": {
-    "iDPNGKoFsjvf9wUCrk3V": {
-      "name": "Dummy Clinic",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/robhparker/ghl-admin-theme@v0.1.2/test/fixtures/logos/loc-a.svg",
-      "logoAlt": "Dummy Clinic",
+    "I3S7hcJpM71xRahCzE2C": {
+      "name": "MSP Platinum Club",
+      "logoUrl": "https://assets.cdn.filesafe.space/I3S7hcJpM71xRahCzE2C/media/6abee490612cffc49a31a4ad.png",
+      "logoAlt": "MSP Platinum Club",
       "theme": {
-        "primary": "#0f766e",
-        "sidebarBg": "#0b3b3a",
-        "sidebarText": "#e6fffa",
-        "navActive": "#115e59"
+        "primary": "#0F766E"
       }
     },
-    "Cp2XxBsRoyKS2CUf1Hwi": {
-      "name": "Xcelsior Health",
-      "logoUrl": "https://msgsndr-private.storage.googleapis.com/locationPhotos/096434c9-83e6-42da-9644-8a93aed64980.png",
-      "logoAlt": "Xcelsior Health",
-      "theme": {
-        "primary": "#2d3e50"
-      }
+    "https://assets.cdn.filesafe.space/I3S7hcJpM71xRahCzE2C/media/68d18567cc2a791c67a3ec9f.png": {
+      "name": "AMSYS",
+      "logoUrl": "https://assets.cdn.filesafe.space/I3S7hcJpM71xRahCzE2C/media/68d18567cc2a791c67a3ec9f.png",
+      "logoAlt": "AMSYS"
     }
   },
   "buttons": [
     {
-      "id": "sendInvite",
-      "label": "Send Invite",
-      "icon": "send",
-      "placement": "contact",
-      "scope": "all",
-      "action": {
-        "type": "webhook",
-        "url": "https://services.leadconnectorhq.com/hooks/Cp2XxBsRoyKS2CUf1Hwi/webhook-trigger/bde416ab-a074-4946-bf99-7266eb1b0f4e",
-        "cooldownMs": 10000,
-        "extraFields": {
-          "source": "ghl-customizer"
-        }
-      }
-    },
-    {
-      "id": "helpCenter",
-      "label": "Help Center",
-      "icon": "external",
+      "id": "mpcSupport",
+      "label": "MPC Support",
       "placement": "header",
       "scope": "all",
+      "icon": "external",
       "action": {
         "type": "link",
-        "href": "https://help.gohighlevel.com/",
+        "href": "https://YOUR-SUPPORT-URL",
         "target": "_blank"
       }
     }
