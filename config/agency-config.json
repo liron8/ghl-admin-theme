@@ -16,12 +16,9 @@
     "I3S7hcJpM71xRahCzE2C": {
       "name": "MSP Platinum Club",
       "logoUrl": "https://assets.cdn.filesafe.space/I3S7hcJpM71xRahCzE2C/media/6abee490612cffc49a31a4ad.png",
-      "logoAlt": "MSP Platinum Club",
-      "theme": {
-        "primary": "#0F766E"
-      }
+      "logoAlt": "MSP Platinum Club"
     },
-    "https://assets.cdn.filesafe.space/I3S7hcJpM71xRahCzE2C/media/68d18567cc2a791c67a3ec9f.png": {
+    "AMSYS_LOCATION_ID_HERE": {
       "name": "AMSYS",
       "logoUrl": "https://assets.cdn.filesafe.space/I3S7hcJpM71xRahCzE2C/media/68d18567cc2a791c67a3ec9f.png",
       "logoAlt": "AMSYS"
