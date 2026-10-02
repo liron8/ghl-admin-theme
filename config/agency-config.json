@@ -17,25 +17,7 @@
       "name": "MSP Platinum Club",
       "logoUrl": "https://assets.cdn.filesafe.space/I3S7hcJpM71xRahCzE2C/media/6abee490612cffc49a31a4ad.png",
       "logoAlt": "MSP Platinum Club"
-    },
-    "AMSYS_LOCATION_ID_HERE": {
-      "name": "AMSYS",
-      "logoUrl": "https://assets.cdn.filesafe.space/I3S7hcJpM71xRahCzE2C/media/68d18567cc2a791c67a3ec9f.png",
-      "logoAlt": "AMSYS"
     }
   },
-  "buttons": [
-    {
-      "id": "mpcSupport",
-      "label": "MPC Support",
-      "placement": "header",
-      "scope": "all",
-      "icon": "external",
-      "action": {
-        "type": "link",
-        "href": "https://YOUR-SUPPORT-URL",
-        "target": "_blank"
-      }
-    }
-  ]
+  "buttons": []
 }
